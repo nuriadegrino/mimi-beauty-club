@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIMI Beauty Club — Uñas, cejas y pestañas</title>
+  <meta name="description" content="MIMI Beauty Club: manicura, pedicura, cejas y pestañas. Reserva tu cita online y asegura tu hora con una pequeña señal.">
+  <meta name="theme-color" content="#fff5f7">
+  <meta property="og:title" content="MIMI Beauty Club">
+  <meta property="og:description" content="Nails, brows, lashes & good vibes. Reserva tu cita online.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#inicio" aria-label="MIMI Beauty Club, inicio">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">MIMI <small>BEAUTY CLUB</small></span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#mimi">MIMI</a>
+      <a href="#reserva">Reserva</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a class="header-cta" href="#reserva">Reservar cita <span>↗</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#servicios">Servicios</a>
+    <a href="#mimi">MIMI</a>
+    <a href="#reserva">Reserva</a>
+    <a href="#contacto">Contacto</a>
+    <a class="mobile-menu-cta" href="#reserva">Reservar cita →</a>
+  </div>
+
+  <main id="inicio">
+
+    <section class="hero">
+      <div class="hero-decoration deco-star">✦</div>
+      <div class="season-badge">CHRISTMAS<br>NAIL EDIT <span>♡</span></div>
+      <div class="hero-decoration deco-smile">⌣</div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">CHRISTMAS NAIL EDIT · NAILS · BROWS · LASHES</p>
+        <h1>Tu beauty<br><em>era</em> empieza aquí.</h1>
+        <p class="hero-lead">
+          Manicuras, pedicuras, cejas y pestañas para salir
+          sintiéndote un poquito más tú.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#reserva">Reservar mi cita <span>→</span></a>
+          <a class="text-link" href="#servicios">Ver servicios <span>↓</span></a>
+        </div>
+        <div class="seasonal-mini"><span>✦</span> EDICIÓN NAVIDAD · reservas abiertas</div>
+        <div class="hero-trust">
+          <span>♡</span>
+          <p><strong>Tu hora, tu momento.</strong><br>Reserva online en menos de 2 minutos.</p>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="blob blob-pink"></div>
+        <div class="blob blob-yellow"></div>
+        <div class="hero-photo-card">
+          <img src="assets/user-snowflake-blue.jpg" alt="Manicura navideña azul hielo con copos de nieve, glitter y detalles dorados">
+          <span class="photo-sticker">CHRISTMAS<br>NAILS<br>ONLY ✦</span>
+        </div>
+        <div class="floating-note">
+          <span>01</span>
+          <strong>SELF<br>CARE</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Servicios">
+      <div class="ticker-track" aria-hidden="true">
+        <div class="ticker-set">NAILS <span>✦</span> BROWS <span>✦</span> LASHES <span>✦</span> CHRISTMAS NAILS <span>✦</span> GOOD VIBES <span>✦</span></div>
+        <div class="ticker-set">NAILS <span>✦</span> BROWS <span>✦</span> LASHES <span>✦</span> CHRISTMAS NAILS <span>✦</span> GOOD VIBES <span>✦</span></div>
+        <div class="ticker-set">NAILS <span>✦</span> BROWS <span>✦</span> LASHES <span>✦</span> CHRISTMAS NAILS <span>✦</span> GOOD VIBES <span>✦</span></div>
+        <div class="ticker-set">NAILS <span>✦</span> BROWS <span>✦</span> LASHES <span>✦</span> CHRISTMAS NAILS <span>✦</span> GOOD VIBES <span>✦</span></div>
+      </div>
+    </section>
+
+    <section class="services" id="servicios">
+      <div class="section-intro">
+        <p class="eyebrow">02 / ELIGE TU MOMENTO</p>
+        <h2>Beauty, pero<br><em>a tu manera.</em></h2>
+        <p>Desde una manicura express hasta el combo completo. Tú eliges cómo quieres salir de MIMI.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card service-pink">
+          <div class="service-icon">♡</div>
+          <span class="service-tag">01 · NAILS</span>
+          <h3>Manicuras</h3>
+          <p>Semipermanente, rusa, cat eye, chrome y diseños navideños para que tus manos hablen por ti.</p>
+          <div class="service-bottom"><strong>Desde 22 €</strong><a href="#reserva" data-service="Manicura">Reservar →</a></div>
+        </article>
+
+        <article class="service-card service-yellow">
+          <div class="service-icon">✦</div>
+          <span class="service-tag">02 · FEET</span>
+          <h3>Pedicuras</h3>
+          <p>Cuidado, color, brillo y ese momento de “me lo merecía” que tus pies llevaban pidiendo.</p>
+          <div class="service-bottom"><strong>Desde 28 €</strong><a href="#reserva" data-service="Pedicura">Reservar →</a></div>
+        </article>
+
+        <article class="service-card service-lilac">
+          <div class="service-icon">⌁</div>
+          <span class="service-tag">03 · BROWS</span>
+          <h3>Cejas</h3>
+          <p>Diseño, depilación y definición para encontrar la forma que mejor encaja contigo.</p>
+          <div class="service-bottom"><strong>Desde 15 €</strong><a href="#reserva" data-service="Cejas">Reservar →</a></div>
+        </article>
+
+        <article class="service-card service-red">
+          <div class="service-icon">♡</div>
+          <span class="service-tag">04 · LASHES</span>
+          <h3>Pestañas</h3>
+          <p>Lifting, tinte y mirada protagonista sin complicarte la vida cada mañana.</p>
+          <div class="service-bottom"><strong>Desde 30 €</strong><a href="#reserva" data-service="Pestañas">Reservar →</a></div>
+        </article>
+      </div>
+
+      <div class="combo-banner">
+        <div>
+          <span class="eyebrow">MIMI COMBO</span>
+          <h3>Brows + lashes + nails.</h3>
+        </div>
+        <p>Para cuando quieres salir diciendo: <em>“ok, ahora sí.”</em></p>
+        <a href="#reserva" class="button button-light" data-service="MIMI Combo">Quiero el combo <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="statement" id="mimi">
+      <div class="statement-image">
+        <img src="assets/user-snowman.jpg" alt="Manicura navideña en tonos crema con muñeco de nieve, copos y lazo dorado" loading="lazy">
+        <div class="round-sticker">YOU<br>LOOK<br>GOOD<br>♡</div>
+      </div>
+      <div class="statement-copy">
+        <p class="eyebrow">03 / SOBRE MIMI</p>
+        <h2>No vienes solo a hacerte las uñas. <em>Vienes a sentirte genial.</em></h2>
+        <p>
+          Creamos un espacio divertido, cuidado y sin dramas.
+          Música, color, café y un equipo que entiende que un ratito
+          para ti también cuenta.
+        </p>
+        <div class="mini-points">
+          <div><span>01</span><strong>Atención personalizada</strong><small>Tu cita, tus gustos.</small></div>
+          <div><span>02</span><strong>Productos seleccionados</strong><small>Calidad antes que cantidad.</small></div>
+          <div><span>03</span><strong>Good vibes only</strong><small>Saldrás mejor de lo que entraste.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="gallery-heading">
+        <div>
+          <p class="eyebrow">04 / MIMI MOOD</p>
+          <h2>Navidad, pero<br><em>hazla extra.</em></h2>
+        </div>
+        <p class="gallery-lead">Más detalle, más color y más fantasía. Esta temporada queremos uñas que se miren dos veces.</p>
+      </div>
+      <div class="christmas-tags" aria-label="Tendencias navideñas">
+        <span>GINGERBREAD</span><span>CANDY CANE</span><span>CAT EYE</span><span>3D NAIL ART</span><span>CHROME</span><span>PEDRERÍA</span>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-main"><img src="assets/user-maximal-gingerbread.jpg" alt="Uñas navideñas maximalistas con gingerbread, bastones de caramelo y detalles 3D" loading="lazy"><span>01 · MAXIMAL CHRISTMAS</span></div>
+        <div class="gallery-item"><img src="assets/user-snowflake-blue.jpg" alt="Uñas azul hielo con copos de nieve y glitter dorado" loading="lazy"><span>02 · ICE GLAM</span></div>
+        <div class="gallery-item"><img src="assets/user-snowman.jpg" alt="Uñas crema navideñas con muñeco de nieve y lazos dorados" loading="lazy"><span>03 · SNOW DAY</span></div>
+        <div class="gallery-item"><img src="assets/user-blue-glitter.jpg" alt="Manicura azul y plateada con glitter y copos de nieve" loading="lazy"><span>04 · FROSTED GLITTER</span></div>
+        <div class="gallery-item"><img src="assets/user-pink-gold.jpg" alt="Uñas rosa empolvado con glitter dorado y copos navideños" loading="lazy"><span>05 · PINK & GOLD</span></div>
+        <div class="gallery-item"><img src="assets/user-reindeer-glitter.jpg" alt="Uñas con reno, glitter y acabado festivo" loading="lazy"><span>06 · RUDOLPH GLOW</span></div>
+        <div class="gallery-item"><img src="assets/user-brown-bows.jpg" alt="Uñas chocolate con lazos y detalles de temporada" loading="lazy"><span>07 · CHOCOLATE BOWS</span></div>
+        <div class="gallery-item gallery-item-wide"><img src="assets/user-gingerbread-knit.jpg" alt="Uñas nude con gingerbread y relieve inspirado en punto de invierno" loading="lazy"><span>08 · GINGERBREAD KNIT</span></div>
+      </div>
+    </section>
+
+    <section class="booking" id="reserva">
+      <div class="booking-copy">
+        <p class="eyebrow">05 / RESERVA ONLINE</p>
+        <h2>Tu cita.<br><em>Tu hora.</em></h2>
+        <p>Elige servicio, fecha y hora. Para asegurar tu cita te pediremos una pequeña señal.</p>
+        <div class="deposit-note">
+          <span>€</span>
+          <div><strong>Señal desde 10 €</strong><small>Se descuenta del total. Extras incluidos en el precio final.</small></div>
+        </div>
+      </div>
+
+      <div class="booking-card">
+        <div class="booking-progress">
+          <span class="active">01 Servicio</span>
+          <i></i>
+          <span>02 Fecha</span>
+          <i></i>
+          <span>03 Pago</span>
+        </div>
+
+        <form id="bookingForm">
+          <label>Servicio
+            <select id="service" required>
+              <option value="">Elige tu servicio</option>
+              <option value="Manicura">Manicura semipermanente — 22 €</option>
+              <option value="Manicura navideña">Manicura navideña — 29 €</option>
+              <option value="Manicura rusa">Manicura rusa — 32 €</option>
+              <option value="Pedicura">Pedicura — 28 €</option>
+              <option value="Cejas">Diseño de cejas — 15 €</option>
+              <option value="Lifting de pestañas">Lifting de pestañas — 30 €</option>
+              <option value="MIMI Combo">MIMI Combo — 55 €</option>
+            </select>
+          </label>
+
+          <div class="form-row">
+            <label>Fecha
+              <input type="date" id="date" required>
+            </label>
+            <label>Hora
+              <select id="time" required>
+                <option value="">Selecciona</option>
+                <option>09:00</option><option>09:30</option><option>10:00</option>
+                <option>10:30</option><option>11:00</option><option>11:30</option>
+                <option>12:00</option><option>12:30</option><option>13:00</option>
+                <option>16:00</option><option>16:30</option><option>17:00</option>
+                <option>17:30</option><option>18:00</option><option>18:30</option>
+                <option>19:00</option><option>19:30</option><option>20:00</option>
+              </select>
+            </label>
+          </div>
+
+          <fieldset class="extras-fieldset" id="nailExtras">
+            <legend>Personaliza tu manicura <span>opcional</span></legend>
+            <div class="extras-grid">
+              <label class="extra-option">
+                <input type="checkbox" name="extra" value="Pedrería" data-price="5">
+                <span><strong>Pedrería</strong><small>+ 5 €</small></span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" name="extra" value="Dibujo personalizado" data-price="6">
+                <span><strong>Dibujo personalizado</strong><small>+ 6 €</small></span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" name="extra" value="Efecto cat eye" data-price="4">
+                <span><strong>Efecto cat eye</strong><small>+ 4 €</small></span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" name="extra" value="Chrome / glazed" data-price="5">
+                <span><strong>Chrome / glazed</strong><small>+ 5 €</small></span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" name="extra" value="Nail art navideño" data-price="7">
+                <span><strong>Nail art navideño</strong><small>+ 7 €</small></span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" name="extra" value="Alargamiento" data-price="8">
+                <span><strong>Alargamiento</strong><small>+ 8 €</small></span>
+              </label>
+            </div>
+          </fieldset>
+
+          <label>Nombre
+            <input type="text" id="name" placeholder="Tu nombre" autocomplete="name" required>
+          </label>
+
+          <div class="form-row">
+            <label>Teléfono
+              <input type="tel" id="phone" placeholder="600 000 000" autocomplete="tel" required>
+            </label>
+            <label>Email
+              <input type="email" id="email" placeholder="tu@email.com" autocomplete="email" required>
+            </label>
+          </div>
+
+          <label class="checkbox">
+            <input type="checkbox" required>
+            <span>Acepto la política de reserva y las condiciones de la cita.</span>
+          </label>
+
+          <div class="deposit-summary">
+            <span>Señal para confirmar</span>
+            <strong>10,00 €</strong>
+          </div>
+
+          <button class="button button-dark button-full" type="submit">
+            Continuar al pago <span>→</span>
+          </button>
+
+          <p class="demo-payment">Demo: en una web real este botón conectaría con Stripe Checkout o el sistema de reservas del negocio.</p>
+        </form>
+
+        <div class="payment-panel" id="paymentPanel" hidden>
+          <div class="payment-back" id="paymentBack">← Volver</div>
+          <p class="eyebrow">03 / PAGO SEGURO</p>
+          <h3>Una pequeña señal<br>y <em>tu cita es tuya.</em></h3>
+
+          <div class="payment-order">
+            <div><span>Servicio</span><strong id="summaryService">—</strong></div>
+            <div><span>Fecha</span><strong id="summaryDate">—</strong></div>
+            <div><span>Hora</span><strong id="summaryTime">—</strong></div>
+            <div><span>Extras</span><strong id="summaryExtras">—</strong></div>
+            <div><span>Total servicio</span><strong id="summaryTotal">—</strong></div>
+            <div class="payment-total"><span>Señal</span><strong>10,00 €</strong></div>
+          </div>
+
+          <div class="fake-card">
+            <div class="card-top"><span>MIMI</span><span>VISA</span></div>
+            <div class="card-number">••••  ••••  ••••  4242</div>
+            <div class="card-bottom"><span>DEMO PAYMENT</span><span>12/30</span></div>
+          </div>
+
+          <button class="button button-dark button-full" id="payButton">
+            Pagar 10,00 € y reservar <span>→</span>
+          </button>
+
+          <p class="demo-payment">Modo demostración. No se realizará ningún cargo real.</p>
+        </div>
+
+        <div class="booking-success" id="bookingSuccess" hidden>
+          <div class="success-heart">♥</div>
+          <p class="eyebrow">CITA CONFIRMADA</p>
+          <h3>Yesss, te esperamos.</h3>
+          <p>Tu reserva de <strong id="successService">tu servicio</strong> ha quedado confirmada para <strong id="successDate">tu fecha</strong> a las <strong id="successTime">tu hora</strong>.</p>
+          <div class="success-deposit">Señal pagada · 10,00 €</div>
+          <button class="text-link" id="newBooking">Hacer otra reserva →</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div>
+        <p class="eyebrow">06 / ANTES DE VENIR</p>
+        <h2>Preguntas<br><em>beauty.</em></h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>¿Tengo que pagar una señal? <span>+</span></summary>
+          <p>Sí. Pedimos una pequeña señal de 10 € para confirmar la cita. Se descuenta del precio final del servicio.</p>
+        </details>
+        <details>
+          <summary>¿Puedo cambiar mi cita? <span>+</span></summary>
+          <p>En una web real aquí indicaríamos la política de cambios y cancelaciones del centro.</p>
+        </details>
+        <details>
+          <summary>¿Qué pasa si llego tarde? <span>+</span></summary>
+          <p>Dependerá del tiempo disponible y del servicio reservado. La política completa se mostraría antes de confirmar.</p>
+        </details>
+        <details>
+          <summary>¿Puedo reservar varios servicios? <span>+</span></summary>
+          <p>Sí. En la versión real podríamos permitir añadir varios servicios a una misma cita.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="confetti">✦ ♡ ✦</div>
+      <p class="eyebrow">07 / UN RATITO PARA TI</p>
+      <h2>Cuídate.<br><em>Te lo mereces.</em></h2>
+      <a class="button button-dark" href="#reserva">Reservar mi cita <span>→</span></a>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="contact-title">
+        <p class="eyebrow">08 / NOS ENCONTRAMOS</p>
+        <h2>Ven a vernos.<br><em>Te va a gustar.</em></h2>
+      </div>
+      <div class="contact-info">
+        <div><span>Dirección</span><strong>Carrer de MIMI, 24<br>Lleida · Catalunya</strong><a href="#" onclick="return false;">Cómo llegar →</a></div>
+        <div><span>Horario</span><strong>Lun–Vie · 09:00–20:00<br>Sáb · 09:00–14:00</strong></div>
+        <div><span>Contacto</span><strong>hola@mimibeautyclub.com<br>973 00 00 00</strong></div>
+        <div><span>Instagram</span><strong>@mimibeautyclub</strong></div>
+      </div>
+    </section>
+
+  </main>
+
+  <a class="mobile-booking-bar" href="#reserva">
+    <span>Reservar cita</span><span>→</span>
+  </a>
+
+  <footer>
+    <a class="brand" href="#top">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">MIMI <small>BEAUTY CLUB</small></span>
+    </a>
+    <p>© 2026 MIMI Beauty Club · Proyecto conceptual</p>
+    <a href="#reserva">Reservar cita ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
